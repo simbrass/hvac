@@ -6,7 +6,6 @@ import {
   MapPin, 
   Mail, 
   ChevronRight, 
-  Thermometer, 
   Wind, 
   Flame, 
   Settings,
