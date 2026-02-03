@@ -58,12 +58,12 @@ function Navigation() {
             <div className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${
               scrolled ? 'bg-navy' : 'bg-white/20 backdrop-blur-sm'
             }`}>
-              <Thermometer className={`w-6 h-6 ${scrolled ? 'text-copper' : 'text-white'}`} />
+              <Snowflake className={`w-6 h-6 ${scrolled ? 'text-copper' : 'text-white'}`} />
             </div>
             <span className={`font-display font-bold text-xl tracking-tight transition-colors ${
               scrolled ? 'text-navy' : 'text-white'
             }`}>
-              CLIMAT<span className="text-copper">PRO</span>
+              PG<span className="text-copper">JACQUES</span>
             </span>
           </a>
 
@@ -98,7 +98,7 @@ function Navigation() {
               }`}
             >
               <Phone className="w-4 h-4" />
-              (418) 123-4567
+              (418) 338-8582
             </a>
           </div>
 
@@ -134,7 +134,7 @@ function Navigation() {
                 className="inline-flex items-center gap-2 text-copper font-semibold"
               >
                 <Phone className="w-4 h-4" />
-                (418) 123-4567
+                (418) 338-8582
               </a>
             </div>
           </div>
@@ -158,7 +158,7 @@ function TrustBar() {
               </div>
               <div className="text-xs">
                 <span className="block font-semibold text-navy">RBQ</span>
-                <span className="text-slate-custom">0000-0000-01</span>
+                <span className="text-slate-custom">2417-5275-31</span>
               </div>
             </div>
             
@@ -704,7 +704,7 @@ function Footer() {
                 className="inline-flex items-center gap-2 px-6 py-3 border-2 border-white/30 text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-300"
               >
                 <Phone className="w-5 h-5" />
-                (418) 123-4567
+                (418) 338-8582
               </a>
             </div>
           </div>
@@ -719,10 +719,10 @@ function Footer() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-10 h-10 bg-copper rounded-lg flex items-center justify-center">
-                  <Thermometer className="w-6 h-6 text-white" />
+                  <Snowflake className="w-6 h-6 text-white" />
                 </div>
                 <span className="font-display font-bold text-xl">
-                  CLIMAT<span className="text-copper">PRO</span>
+                  PG<span className="text-copper">JACQUES</span>
                 </span>
               </div>
               <p className="text-white/60 text-sm mb-4">
@@ -731,7 +731,7 @@ function Footer() {
               </p>
               <div className="flex items-center gap-2 text-sm text-white/60">
                 <Shield className="w-4 h-4 text-copper" />
-                <span>RBQ: 0000-0000-01</span>
+                <span>RBQ: 2417-5275-31</span>
               </div>
             </div>
 
@@ -777,20 +777,20 @@ function Footer() {
                 <li className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-copper flex-shrink-0 mt-0.5" />
                   <span className="text-white/60 text-sm">
-                    123 Rue Principale<br />
-                    Thetford Mines, QC G6G 1X1
+                    50 Chemin du Mont Granit E<br />
+                    Thetford Mines, QC G6G 5R7
                   </span>
                 </li>
                 <li className="flex items-center gap-3">
                   <Phone className="w-5 h-5 text-copper flex-shrink-0" />
                   <a href="tel:4181234567" className="text-white/60 hover:text-copper transition-colors text-sm">
-                    (418) 123-4567
+                    (418) 338-8582
                   </a>
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-5 h-5 text-copper flex-shrink-0" />
-                  <a href="mailto:info@climatpro.ca" className="text-white/60 hover:text-copper transition-colors text-sm">
-                    info@climatpro.ca
+                  <a href="mailto:info@pgjacques.com" className="text-white/60 hover:text-copper transition-colors text-sm">
+                    info@pgjacques.com
                   </a>
                 </li>
               </ul>
@@ -804,9 +804,9 @@ function Footer() {
         <div className="w-full section-padding">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/40">
             <div className="flex flex-wrap items-center justify-center gap-4">
-              <span>© 2024 ClimatPro Québec. Tous droits réservés.</span>
+              <span>© 2026 PG Jacques. Tous droits réservés.</span>
               <span className="hidden md:inline">|</span>
-              <span>RBQ: 0000-0000-01</span>
+              <span>RBQ: 2417-5275-31</span>
               <span className="hidden md:inline">|</span>
               <span>CMMTQ Certifié</span>
             </div>
